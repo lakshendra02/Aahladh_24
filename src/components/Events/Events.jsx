@@ -88,6 +88,12 @@ const Events = () => {
       registrationLink: "/Photography",
       backgroundImage: Photography,
     },
+    {
+      title: "PHOTOGRAPHY",
+      copy: "Click here to register for the event",
+      registrationLink: "/Singalong",
+      backgroundImage: Photography,
+    },
   ];
   return (
     <div className="event-data-css">
@@ -97,3 +103,4 @@ const Events = () => {
 };
 
 export default Events;
+ 
