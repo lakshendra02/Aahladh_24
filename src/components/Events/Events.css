@@ -1,0 +1,169 @@
+.singing-container {
+  padding-top: 16px;
+}
+
+.singing-image-container {
+  display: flex;
+  /* justify-content: center ; */
+  align-items: center;
+  /* height: 95vh; */
+  border: 1px solid #222121;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #222121 !important;
+  border-radius: 15px;
+}
+
+.singing-image {
+  /* padding: 30px; */
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  border-radius: 15px;
+
+}
+
+.about-singing-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-singing {
+  margin-top: 100px;
+  /* color: #eee; */
+  border: 1px solid #222121;
+  width: 40%;
+  margin-left: 50px;
+  padding: 30px;
+  /* background-color: #222121; */
+  background-color: transparent;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 4px 8px rgb(247, 49, 227);
+
+}
+
+.singing-heading {
+  text-align: center;
+  color: #eee;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.singing-description {
+  color: #eee;
+  text-align: start;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+
+  .singing-image-container {
+    margin-top: 120px !important;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50vh !important;
+  }
+
+  .singing-image {
+    width: auto;
+    height: 400px;
+
+  }
+
+  .about-singing {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about-singing-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .singing-image-container {
+    margin-top: 120px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    /* height: 50vh; */
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-singing {
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+
+  .singing-image {
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+
+
+@media screen and (min-width:991px) {
+  .about-singing-container {
+    display: flex;
+  }
+
+}
+
+
+.volunteer-heading {
+  text-align: center;
+  color: #eee;
+  font-weight: bold;
+  text-shadow: rgba(240, 208, 46, 0.4) 0px 5px;
+}
+
+.event-btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+.event-btn:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.event-data-css {
+  padding-top: 60px;
+}
+
+.see-more-less-button {
+  color: white;
+  border: 2px solid rgba(251, 0, 255, 0.571);
+  border-style: dashed;
+  background-color: transparent;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.see-more-less-button:hover {
+  color: white;
+  background-color: rgba(251, 0, 255, 0.571);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}

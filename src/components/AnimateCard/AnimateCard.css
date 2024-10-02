@@ -1,0 +1,165 @@
+body {
+    background-color: #000;
+}
+
+.member-card {
+    position: relative;
+    border-radius: 8px;
+    height: 360px;
+    width: 300px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 80px -10px black;
+    overflow: hidden;
+
+}
+
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.member-card:hover .card-blur {
+    opacity: 0.6;
+}
+
+.footer-card {
+    z-index: 1;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+}
+
+.connections {
+    height: 80px;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    margin: auto;
+}
+
+.connection {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 5px;
+    transform: translateY(200px);
+    transition: transform 1s cubic-bezier(.46, 1.21, .18, .81);
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #ede966;
+}
+
+.member-card:hover .connection {
+    transform: translateY(0px);
+}
+
+.info {
+    font-family: Inconsolata, monospace;
+    padding-left: 20px;
+    transform: translateY(250px);
+    transition: transform 1s cubic-bezier(.31, 1.21, .64, 1.02);
+    color: black;
+    background-color: #fff;
+    padding: 20px 10px;
+    height: 100px;
+}
+
+.member-card:hover .info {
+    transform: translateY(0px);
+}
+
+.name {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.job {
+    margin-top: 5px;
+}
+
+
+.connection {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+.animate-card-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .member-card {
+        width: calc(60% - 30px);
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 165px;
+    }
+
+    .info {
+        transform: translateY(0);
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .member-card {
+        width: calc(90% - 30px);
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    .info {
+        transform: translateY(0);
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:800px) {
+    .animate-card-container {
+        display: flex;
+    }
+}
+
+.council-mem-heading {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
