@@ -62,7 +62,7 @@ const Singing = () => {
       socialMediaIcons: [
         {
           icon: <AiFillInstagram size={20} />,
-          link: "https://www.instagram.com/raahath_shaik/",
+          link: "https://www.instagram.com/raahath_shaik/", 
         },
       ],
       email: "221245@iiitt.ac.in",
